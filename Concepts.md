@@ -1,0 +1,6 @@
+* [Java Protected Members accessible in Package](http://programmers.stackexchange.com/questions/205646/in-java-why-were-protected-members-made-accessible-to-classes-of-the-same-packa)
+* [Concrete classes are evil - use interfaces](http://www.javaworld.com/article/2073649/core-java/why-extends-is-evil.html)
+* [Can Abstract class can have constructor](http://stackoverflow.com/questions/260666/can-an-abstract-class-have-a-constructor)
+* [Command Design Pattern](http://alvinalexander.com/java/java-command-design-pattern-in-java-examples)
+* [Interface Programming](https://en.wikipedia.org/wiki/Design_by_contract)
+* [S.O.L.I.D](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)
