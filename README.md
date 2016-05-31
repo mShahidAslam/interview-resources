@@ -1,6 +1,12 @@
 interview-resources
 ===================
 
+# My Links
+* [MIT Interview Material](https://courses.csail.mit.edu/iap/interview/materials.php)
+* [Udacity Interview Prep Course](https://classroom.udacity.com/courses/ud513/lessons/7174469398/concepts/71201055390923)
+* [Stanford interview resorces](http://web.stanford.edu/class/cs9/)
+* [Cracking the Coding Interview Resources](http://www.crackingthecodinginterview.com/resources.html)
+
 long list of resources for preparing for technical computer engineering interviews. 
 
 #Short List
