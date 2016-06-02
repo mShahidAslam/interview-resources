@@ -36,3 +36,5 @@ in the same amount of time (even if that amount of time is really long).
 
 ##### Hash Function
 - Minimize Collision
+- 
+http://www.cs.rmit.edu.au/online/blackboard/chapter/05/documents/contribute/chapter/05/linear-probing.html
