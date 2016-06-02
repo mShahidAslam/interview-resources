@@ -30,7 +30,9 @@ in the same amount of time (even if that amount of time is really long).
 - One simple hash function can be (key % hash table size)
 - Components of hashing are Hash Table, Hash Function, Collisions, Collision Resolution Techniques
 
-#### Hash Table
+##### Hash Table
 - Hash table is generalization of array.
 - Used when we have less locations and more possible keys. So, use hashtable when the keys stored is small relative to the number of possible keys.
 
+##### Hash Function
+- Minimize Collision
