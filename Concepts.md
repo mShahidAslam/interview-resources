@@ -6,6 +6,7 @@
 * [S.O.L.I.D](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)
 
 
+## Characters
 - Number of possible ASCII characters -> 256 characters.
 - Number of possible UTF-8 characters -> Million characters. It can be represented in 1 to 4 bytes
 
