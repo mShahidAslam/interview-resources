@@ -21,3 +21,16 @@ it just means that it isn't proportional to the length/size/magnitude of the inp
 in the same amount of time (even if that amount of time is really long).
 
 [Linear + Constant Time]([https://www.quora.com/Difference-between-linear-time-and-constant-time-in-Data-structure)
+
+
+## HashTable/HashMap
+- Hashing used for storing and retrieving information as fast as possible.
+- Array can be used as hashtable if our set of possible options is limited. Direct addressing can be used to access elements.
+- The process of mapping the keys to a location is called hashing
+- One simple hash function can be (key % hash table size)
+- Components of hashing are Hash Table, Hash Function, Collisions, Collision Resolution Techniques
+
+#### Hash Table
+- Hash table is generalization of array.
+- Used when we have less locations and more possible keys. So, use hashtable when the keys stored is small relative to the number of possible keys.
+
