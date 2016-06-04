@@ -82,6 +82,7 @@ The shift-up and shift-down operations are used to restore the heap condition af
 ##### Implementation
 - Normally the heap is implemented with Array. 
 - In binary heap, the nth node will have children at 2n and 2n + 1 index for the array starting from index 1. The parent will be located at n/2.
+- [Binary heap](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Binary%20Heaps/heaps.html)
 - Insertion function
  - New element is appended at the end of the array
  - Compare added element with parent and replace until the root or the heap condition of max or min is satisfied
