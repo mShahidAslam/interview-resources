@@ -21,4 +21,12 @@
   - LEFT OUTER JOIN -> Left outer join produces a complete set of records from Table A, with the matching records (where available) in Table B. If there is no match, the right side will contain null. 
   - RIGHT OUTER JOIN -> Right outer join produces complete set of records from Table B, with matching records from Table A. If there is no match, the left side will contain null.
   - CROSS JOIN -> Join everything with everything.   
+- Unique Constraint: that you can have many UNIQUE constraints per table, but only one PRIMARY KEY constraint per table. Unique key can be NULL where as Primary key cannot.
+- Primary Key: The PRIMARY KEY constraint uniquely identifies each record in a database table.
+- UNION vs UNION ALL -> Union only returns distinct results where as Union all returns all.
+- Foreign Key: A FOREIGN KEY in one table points to a PRIMARY KEY in another table.
+- Index -> An index can be created in a table to find data more quickly and efficiently. CREATE INDEX index_name ON table_name(column_name); -> http://odetocode.com/Articles/70.aspx
+  - Non-clustered Index: The column is represented by B Tree data structure and is sorted. Each entry in this data strucure contains the reference to the original row. So, whenever user searches based on the indexed column, B Tree helps in fast searching. When the data is searched, the whole row is found using the reference.
+  - Clustered Index: Instead of saving the index data only and referencing it to the main row. Clustered index contains the whole table in sorted format. So, whenever search is made using this index, the data is returned immediately.
+  
   
