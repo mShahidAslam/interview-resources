@@ -1,0 +1,12 @@
+- RDBMS stands for Relational Database Management System.
+- The data in RDBMS is stored in database objects called tables.
+- A table is a collection of related data entries and it consists of columns and rows.
+- SELECT -> SELECT column_name,column_name FROM table_name WHERE column_name operator value ORDER BY column_name ASC|DESC;
+- Operators: (=) Equal, (<>/!=) Not equal, (>) Greater than, (<) Less than, (>=) Greater than or equal, (<=) Less than or equal, (BETWEEN) Between an inclusive range, (LIKE) Search for a pattern, (IN) To specify multiple possible values for a column
+- ORDER BY -> Ascending by default
+- INSERT -> INSERT INTO table_name (column1,column2,column3,...) VALUES (value1,value2,value3,...);
+- UPDATE -> UPDATE table_name SET column1=value1,column2=value2 WHERE some_column=some_value;
+- DELETE -> DELETE FROM table_name WHERE some_column=some_value; 
+- TOP -> Used to specify the number of records to return. 
+  - MYSQL uses LIMIT -> SELECT * FROM Persons LIMIT 5;
+  - ORACLE use ROWNUM -> SELECT * FROM Persons WHERE ROWNUM <=5;
