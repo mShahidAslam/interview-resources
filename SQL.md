@@ -20,5 +20,5 @@
   - FULL OUTER JOIN -> Full outer join produces the set of all records in Table A and Table B, with matching records from both sides where available. If there is no match, the missing side will contain null.
   - LEFT OUTER JOIN -> Left outer join produces a complete set of records from Table A, with the matching records (where available) in Table B. If there is no match, the right side will contain null. 
   - RIGHT OUTER JOIN -> Right outer join produces complete set of records from Table B, with matching records from Table A. If there is no match, the left side will contain null.
-  - 
+  - CROSS JOIN -> Join everything with everything.   
   
