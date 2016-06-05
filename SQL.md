@@ -28,5 +28,6 @@
 - Index -> An index can be created in a table to find data more quickly and efficiently. CREATE INDEX index_name ON table_name(column_name); -> http://odetocode.com/Articles/70.aspx
   - Non-clustered Index: The column is represented by B Tree data structure and is sorted. Each entry in this data strucure contains the reference to the original row. So, whenever user searches based on the indexed column, B Tree helps in fast searching. When the data is searched, the whole row is found using the reference.
   - Clustered Index: Instead of saving the index data only and referencing it to the main row. Clustered index contains the whole table in sorted format. So, whenever search is made using this index, the data is returned immediately.
-  
+Views: A virtual/temporary table created using the result of an SQL statement.
+Stored procedure: It is nothing but a bunch of SQL statements that user can use without writing them again and again.
   
